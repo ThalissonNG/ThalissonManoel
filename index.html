@@ -10,7 +10,7 @@
     <title>Thalisson Manoel</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav id="navbar">
         <a href="#home">
             <p class="textNavbar">Home</p>
         </a>
@@ -35,10 +35,10 @@
     data-aos="fade-up"
     data-aos-easing="ease-in-sine">
         <div class="tittleSection">
+            <!-- <img src="Assets/Vector1.svg" alt="Vector1" class="vector1">
+            <img src="Assets/Vector2.svg" alt="Vector2" class="vector2"> -->
             <p class="texthome">Olá!</p>
             <h1 class="tittleHome">Meu nome é <span style="color: var(--color-itens);">Thalisson</span>,<br>Desenvolvedor de software.</h1>
-            <img src="Assets/Vector1.svg" alt="Vector1" class="vector1">
-            <img src="Assets/Vector2.svg" alt="Vector2" class="vector2">
         </div>
         <div class="infos">
             <div class="textLeft">
@@ -63,14 +63,18 @@
             </div>
         </div>
         <div class="buttons">
-            <p class="btn Portifolio">
-                Portifolio
-                <i class="fa-solid fa-up-right-from-square"></i>
-            </p>
-            <p class="btn Contateme">
-                Contate-me
-                <i class="fa-solid fa-up-right-from-square"></i>
-            </p>
+            <a href="#" target="_blank">
+                <p class="btn Portifolio">
+                    Portifolio
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </p>
+            </a>
+            <a href="https://wa.me/5583996013954" target="_blank">
+                <p class="btn Contateme">
+                    Contate-me
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </p>
+            </a>
         </div>
     </div>
     <div id="services">
@@ -82,9 +86,8 @@
             <p class="textServices">Desenvolvo projetos em desenvolvimento web, automação de processos e criação de jogos, com foco na experiência do usuário e na eficiência técnica. Tenho domínio de <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Python</strong>, <strong>C#</strong>, <strong>SQL</strong>, além de experiência com <strong>Flask</strong> e <strong>Unity</strong>. Cada projeto é uma oportunidade de aprendizado e entrega de soluções criativas e funcionais.</p>
         </div>
         <div class="projectsMain"
-        data-aos="fade-up"
-        data-aos-easing="ease-in-sine"
-        data-aos-offset="400">
+        
+        >
             <div class="project">
                 <p class="tittleProject">Landing Page Rockstar Games</p>
                 <img src="Assets/Macbook-Air-thalissonng.github.io.png" alt="SiteRockstar">
@@ -103,7 +106,7 @@
                     </a>
                 </div>
             </div>
-            <div class="project">
+            <!-- <div class="project">
                 <p class="tittleProject">TCC<br> jogos digitais</p>
                 <img src="Assets/Macbook-Air-thalissonng.github.io.png" alt="SiteRockstar">
                 <div class="btnProject">
@@ -156,8 +159,11 @@
                         </button>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
+        <a href="#navbar">
+            <button>Inicio</button>
+        </a>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
